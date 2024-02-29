@@ -1,0 +1,13 @@
+body{
+    font-size: 20px;
+    font-family: Arial, Helvetica ,sans-serif;
+    line-height: 1.5;
+    background-color : hsl(34,24%,55%);
+    color:white;
+}
+
+p{
+    color: #111111;
+    border: 1px solid white;
+    padding: 5px;
+}

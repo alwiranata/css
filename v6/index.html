@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+    <style>
+        body{
+            background-color: aquamarine;
+        }
+        .pertama{
+            justify-content: center;
+            text-align: center;
+            background-color: gray;
+            width: 300px;
+            height: 150px;
+            padding: 50px;
+            border: 15px solid rgb(0, 128, 38);
+            margin: 15px; 
+            color: whitesmoke;
+            transition:  height 2s , width 2s;
+        }
+        .pertama:hover{
+            justify-content: center;
+            text-align: center;
+            background-color: whitesmoke;
+            width: 400px;
+            height: 200px;
+            padding: 50px;
+            border: 15px solid rgb(0, 128, 38);
+            margin: 15px; 
+            color: gray;
+        }
+        .div1{
+            width: 300px;
+            height: 100px;
+            padding: 20px;
+            border: 26px solid blue;
+            /* box-sizing: border-box; */
+            box-sizing: border-box;
+        }
+        .div2{
+            width: 300px;
+            height: 100px;
+            padding: 20px;
+            border: 2px solid rgb(186, 18, 18);
+            box-sizing: border-box;
+        }
+        .box{
+            border: 1px solid gray;
+        }
+        .div3{
+            height: 100px;
+            width: 400px;
+            border: 1px solid green;
+            /* margin: 2rem; */
+            /* margin-top: 5rem;
+            margin-right: 2rem;
+            margin-left: 4rem;
+            margin-bottom: 5rem; */
+            margin: 1rem  2rem 3rem 4rem ;
+            padding: 1rem  2rem 3rem 4rem ;
+            outline: 5px solid purple;
+            outline-offset:  -10px;
+            
+        }
+        /* rem margin default = 16 */
+        /* em magin parent = mengikut parent */
+        .bulat{
+            background-color: green;
+            width: 100px;
+            height: 100px;
+            border:  2px solid cornflowerblue;
+            outline: 2px solid red;
+            outline-offset: -10px;
+            margin: 3rem auto;
+            border-radius: 50px;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Demo Box Model</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi molestias ex laboriosam, voluptates nulla doloribus quasi beatae accusamus et obcaecati nobis officia eum aliquam modi velit necessitatibus repellat aspernatur delectus?</p>
+    <div class="pertama">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur dolorem quis iure pariatur tempore ipsum consequuntur quae obcaecati illo non! Unde voluptatem corrupti nobis? Nihil voluptatibus nam sit doloremque cupiditate?
+    </div>
+
+    <div class="div1">
+        Lebar 300 Tinggi 100 <br>
+        width + padding + border = Lebar sebenarnya 
+    </div>
+    <div class="div2">
+        Lebar 300 Tinggi 100 <br>
+    </div>
+    <div class="box">
+        <div class="div3">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia quo accusamus similique esse facilis perferendis. Et cupiditate error eos, dolorum laboriosam illo aperiam porro nulla unde dolore natus veniam veritatis!
+        </div>
+    </div>
+    <div class="bulat">
+    
+    </div>
+</body>
+</html>

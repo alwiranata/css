@@ -1,0 +1,136 @@
+@import url(https://fonts.google.com/share?selection.family=Kode+Mono:wght@400..700|Labrada:wght@200|Nunito:ital,wght@0,200..1000;1,200..1000|Open+Sans:ital,wght@0,300..800;1,300..800|Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900|Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 1rem;
+    font-family: "Open Sans", sans-serif;
+    min-height:  200vh;
+    /* position: relative; */
+}
+
+.outer-container{
+    border: 2px solid gray;
+    width: 75vw;
+    height:  100vw;
+    margin: 30px auto;
+    /* position: relative; */
+}
+
+.inner-container{
+    border:  2px solid red;
+    width: 40vw;
+    height: 70vh;
+    margin: 200px auto;
+    /* position: relative; */
+}
+
+.box{
+    width: 130px;
+    height: 110px;
+    color: white;
+    padding: 2rem;
+}
+
+.absolute{
+    background-color: aquamarine;
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    z-index: 1;
+    /* color: gray; */
+}
+
+.relative{
+    background-color: rgb(14, 56, 42);
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+
+.fixed{
+    background-color: gray;
+    position: fixed;
+    top: 60px;
+    left: 170px;
+}
+
+.sticky{
+    background-color: brown;
+    position: sticky;
+    top: 0;
+}
+/* Pemabatas */ 
+html{
+    scroll-behavior: smooth;
+}
+section{
+    height: 100vw;
+}
+
+section h1{
+    text-align: center;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.red{
+    background-color: red;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+header, footer{
+    color: wheat;
+    text-align: center;
+    height: 100px;
+    font-size: 3em;
+}
+
+header{
+    position: sticky;
+    top:0; 
+    font-size: 5rem;
+}
+
+footer{
+    background-color: gray;
+    position: sticky;
+    bottom: 0;
+    font-size: 3rem;
+    color: white;
+}
+
+a:visited{
+    color: aliceblue;
+}
+
+.instagram{
+    background-color: rgb(195, 18, 183);
+    color: aliceblue;
+    font-size: inherit;
+    padding: 1rem;
+    position: fixed;
+    top: 30%;
+    left: 0;
+    width: 200px;
+    z-index: 1;
+}
+.facebook{
+    background-color: blue;
+    color: aliceblue;
+    font-size: inherit;
+    padding: 1rem;
+    position: fixed;
+    top: 20%;
+    width: 200px;
+    z-index: 1;
+}

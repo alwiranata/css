@@ -1,0 +1,75 @@
+@import url(https://fonts.google.com/share?selection.family=Kode+Mono:wght@400..700|Labrada:wght@200|Nunito:ital,wght@0,200;1,200;1,300|Poppins:ital,wght@0,300;0,400;1,300|Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900);
+body{
+    list-style: none;
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+    padding: 5% 10% 5% 10%;
+    text-align: justify;
+}
+
+
+ol{
+    list-style-type: none;
+    padding: 20px;
+    background-color: palegoldenrod;
+}
+
+ol li{
+    background-color: rgba(102, 255, 0, 0.315);
+    padding: 20px;
+}
+.list ul {
+    /* list-style-type: square; */
+    /* list-style-position: outside; */
+    color: rgb(0, 0, 255);
+    line-height: 1.5;
+    padding: 20px;
+    /* list-style: square  inside; */
+    /* list-style square; */
+}
+
+.list ul li{
+    background-color: aqua;
+    color: rgb(88, 108, 114);
+    margin: 5px;
+}
+
+.list ul li:nth-child(even){
+    color:red;
+
+}
+
+.list ul li::marker{
+    color: rgb(38, 38, 76);
+    font-size: 1rem;
+    content: ">>";
+}
+
+.menu ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(8, 11, 12, 0.423);
+}
+
+.menu ul li{
+    float: left;
+}
+
+li a{
+    list-style: none;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+li a:hover{
+    background-color: gray;
+}
+
+
+
+

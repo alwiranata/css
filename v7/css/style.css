@@ -1,0 +1,26 @@
+h1{
+    font-family : Arial, Helvetica, sans-serif;
+    font-size : 50px;
+    font-weight: normal;
+    font-variant: small-caps;
+    font-family : italic;
+    color: blue;
+    text-align: start;
+    text-indent: 60px;
+    /* text-decoration: overline underline; */
+    text-decoration-line: underline;
+    text-decoration-color: gray;
+    text-decoration-style: wavy;
+    text-decoration-thickness: 10px;
+    text-transform : capitalize;
+    text-shadow: 2px 2px 5px gray;
+}
+p{
+    /* text-emphasis: none; */
+    /* text-align: justify; */
+    word-spacing : 50px;
+    letter-spacing : 5px;
+    line-height: 50px;
+    direction: rtl;
+}
+
