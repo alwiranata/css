@@ -1,0 +1,83 @@
+*{
+    box-sizing: border-box;
+}
+
+.row::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+
+[class*="col-"]{
+    float: left;
+    padding: 15px;
+}
+
+html{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.header{
+    background-color: blueviolet;
+    color: aliceblue;
+    padding: 15px;
+}
+
+.menu ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li{
+    padding: 8px;
+    margin-bottom: 7px;
+    background-color: #33bbee;
+    color: aliceblue;
+    box-shadow:  0 1px 2px rgba(0,0,0,0.12), 0 1px 2px rgba(0, 0, 0, 0.24 ) ;
+    text-align: center;
+}
+
+.menu li:hover{
+    background-color: #0099cc;
+}
+
+.aside{
+    background-color: #0099cc;
+    color: aliceblue;
+    text-align: center;
+    font-size: 12px;
+    padding: 15px;
+    box-shadow:  0 1px 2px rgba(0,0,0,0.12), 0 1px 2px rgba(0, 0, 0, 0.24 ) ;
+   
+}
+
+.footer{
+    background-color: #0099cc;
+    color: aliceblue;
+    text-align: center;
+    font-size: 12px;
+    padding: 15px;
+}
+
+.col-1{width: 8.33%;}
+.col-2{width: 16.66%;}
+.col-3{width: 25%;}
+.col-4{width: 33.33%;}
+.col-5{width: 41.66%;}
+.col-6{width: 50%;}
+.col-7{width: 58.33%;}
+.col-8{width: 68.66%;}
+.col-9{width: 75%;}
+.col-10{width: 83.33%;}
+.col11{width: 100%;}
+
+@media only screen and (max-width:760px){
+    [class*="col-"]{
+        width: 100%;
+    }
+}
+
+
+
+
