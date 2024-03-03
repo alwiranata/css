@@ -16,3 +16,25 @@ div.animasi1{
     75%{background-color: aquamarine;}
     100%{background-color: black;}
 }
+
+div.animasi2{
+    width: 100px;
+    height: 100px;
+    background-color: aquamarine;
+    animation-name: example2;
+    animation-duration: 4s;
+    margin-bottom: 4px;
+    position: relative;
+    animation-delay: 2s;
+}
+
+@keyframes example2{
+    0% {background-color:red;left: 0px; top: 0px;}
+    25% {background-color: blue; left: 250px;top: 250px;}
+    50% {background-color: rgb(122, 34, 84); left: 500px;top: 250px;}
+
+    75% {background-color:#54c039; left: 750px;top: 0px;}
+
+    100% {background-color:red;left: 0px; top: 0px;}
+    
+}
