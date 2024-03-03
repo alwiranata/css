@@ -1,0 +1,50 @@
+:root{
+    /* Global Var */
+    --blue: #0080ff;
+    --white: #ffffff;
+     --ff: Arial, Helvetica, sans-serif;
+     --fs-xl: 3rem;
+     --fs: 1.5rem;
+}
+
+@media (prefers-color-scheme:dark){
+    :root{
+        --blue:#3a3b3c;
+        --white:#b0b3b8;
+    }
+}
+
+
+body{
+    background-color: var(--blue);
+}
+
+h2{
+    border-bottom: 1px solid var(--blue);
+    font-family: var(--ff);
+}
+
+
+.container{
+    color: var(--blue);
+    background-color: var(--white);
+    padding: 10px;
+}
+
+.diff{
+    --white:#0762ff;
+
+}
+
+button{
+    /* Local Var */
+    --black:rgb(0, 0, 0);
+    --red: rgb(223, 19, 19);
+    --white: rgb(255, 247, 247);
+    background-color: var(--red);
+    color:  var(--blue);
+    border: 1px solid var(--black);
+    color: var(--white);
+    padding: 20px 35px; 
+    padding:  var(--fs) var(--fs-xl); 
+}
