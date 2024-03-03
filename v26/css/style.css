@@ -1,0 +1,18 @@
+div.animasi1{
+    width: 100px;
+    height: 100px;
+    background-color: aquamarine;
+    animation-name: example1;
+    animation-duration: 4s;
+    margin-bottom: 4px;
+}
+
+@keyframes example1 {
+    /* from{background-color: blue;}
+    to{background-color:  aquamarine;} */
+    0% {background-color:red;}
+    25% {background-color: blue;}
+    50% {background-color: violet;}
+    75%{background-color: aquamarine;}
+    100%{background-color: black;}
+}
