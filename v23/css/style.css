@@ -1,0 +1,43 @@
+a:link{
+    font-size: large;
+    color: rgb(17, 151, 184);
+}
+
+a:visited{
+    color: rgb(6, 4, 8);
+}
+
+a:hover{
+    color: purple;
+}
+
+a:active{
+    color: antiquewhite;
+}
+
+a.heiglight:hover{
+    color: aquamarine;
+    font-size: 40px;
+} 
+
+p.Bagian1{
+    display: none;
+    background-color: yellow;
+    font-size: 20px;
+}
+
+div:hover p.Bagian1{
+    display: block;
+}
+
+p.anak:first-child{
+    color: aquamarine;
+}
+
+q:lang(no):hover{
+    color: aquamarine;
+    transition: all 50;
+    font-size:  20px;
+}
+
+
