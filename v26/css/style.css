@@ -38,3 +38,48 @@ div.animasi2{
     100% {background-color:red;left: 0px; top: 0px;}
     
 }
+
+div.animasi3{
+    width: 100px;
+    height: 100px;
+    background-color: aquamarine;
+    animation-name: example2;
+    animation-duration: 4s;
+    margin-bottom: 4px;
+    position: relative;
+    /* animation-iteration-count: 3; */
+    /* animation-iteration-count: infinite; */
+    animation-direction: alternate-reverse;
+}
+
+div.div{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    animation: myMovie 5s infinite;
+}
+
+#div1{
+    animation-timing-function: linear;
+}
+
+#div2{
+    animation-timing-function: ease;
+}
+#div3{
+    animation-timing-function: ease-in;
+}
+#div4{
+    animation-timing-function: ease-out;
+}
+#div5{
+    animation-timing-function: ease-in-out;
+}
+
+
+
+@keyframes myMovie{
+    from{left:0px}
+    to{left:300px;}
+}
