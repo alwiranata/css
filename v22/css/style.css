@@ -1,0 +1,54 @@
+p::first-line{
+    color: #ff0000;
+    font-variant: small-caps;
+}
+
+p::first-letter{
+    color: #00ffff;
+}
+
+/* h1::before{
+    content: url(../../v18/img/2.jpeg);
+    width:auto
+} */
+
+h1::after{
+    content: url(../../v18/img/2.jpeg);
+}
+
+::marker{
+    color: RED;
+    font-size: 25px;
+}
+
+p::selection{
+    color: red;
+    background: yellow;
+}
+
+.gradient-button{
+    background-color: transparent;
+    position: relative;
+    overflow: hidden;
+    padding: 30px 40px;
+    color: white;
+}
+
+button::before{
+    content: "";
+    background: linear-gradient(to right,#ff7777 ,#d98eff ,#77deff);
+    position: absolute;
+    inset: 0;
+    width: 300%;
+    z-index: -1;
+    transition: left 1000ms;
+}
+
+button:hover::before{
+  left:-200%;
+}
+
+
+
+
+
