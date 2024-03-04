@@ -1,0 +1,71 @@
+/*
+*author ALdo Wiranata
+*/
+
+/* Default Style */
+
+.user{
+    width: 135px;
+    padding:15px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    float: left;
+    margin-right: 10px;
+    background-color: #efefef;
+}
+
+.user_foto{
+    width: 100%;
+    display: block;
+    border-radius: 50%;
+    box-shadow: inset 0 2px rgba(0, 0, 0, 0.4);
+}
+
+.user_name{
+    font-weight: bold;
+    text-align: center;
+    font-size: 1rem;
+    padding: 10px 0;
+}
+
+.button{
+    width: 100%;
+    padding: 5px;
+    color: #333333;
+    background-color: #cccccc;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:active{
+    box-shadow: inset 0 0 3px rgb(0
+    0, 0, 200); 
+}
+
+/* modif style */
+
+.button-primary{
+    background-color: #277bc0;
+    color: white;
+}
+
+.button-warning{
+    margin-top: 20px;
+    background-color: rgb(254, 77, 77);
+    color: white;
+}
+
+.user-dark{
+    background-color: #342423;
+}
+
+.user-dark  .user_foto{
+    box-shadow: inset 2px 2px rgba(255, 255, 255, 0.50%);
+}
+
+.user-dark .user_name{
+    color: white;
+}
+
